@@ -5,9 +5,6 @@
 
 
 
-
-
-
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
@@ -22,9 +19,12 @@
   --bg-white: hsl(0, 0%, 100%);
   --bg-black-alpha-20: hsla(0, 0%, 0%, 0.2);
   --bg-lavender-blush: hsl(0, 100%, 98%);
-  --bg-majorelle-blue: hsl(249, 95%, 63%);
+  --bg-majorelle-blue: hsl(182, 100%, 19%);
   --bg-ocean-blue: hsl(249, 63%, 54%);
-  --bg-majorelle-blue-alpha-5: hsla(249, 95%, 63%, 0.05);
+  --bg-social-media-blue: hsl(194, 100%, 36%);
+  --bg-social-media-green: hsl(115, 100%, 42%);
+  --bg-social-media-red: hsla(335, 97%, 56%, 0.845);
+  --bg-majorelle-blue-alpha-5: hsla(182, 74%, 11%, 0.445);
   --bg-misty-rose: hsl(0, 100%, 95%);
   --bg-red-salsa: hsl(357, 94%, 63%);
   --bg-red-salsa-alpha-5: hsla(357, 94%, 63%, 0.05);
@@ -38,7 +38,7 @@
   --text-gunmetal: hsl(209, 40%, 14%);
   --text-light-coral: hsl(357, 96%, 73%);
   --text-granite-gray: hsl(210, 4%, 38%);
-  --text-majorelle-blue: hsl(249, 95%, 63%);
+  --text-majorelle-blue: hsl(203, 100%, 28%);
   --text-sunglow: hsl(48, 100%, 50%);
 
   /* border color */
@@ -157,7 +157,7 @@ html {
 }
 
 body {
- background-color: var(--bg-lavender-blush);
+  background-color: var(--bg-lavender-blush);
   color:var(--text-granite-gray);
   font-size: var(--fontSize-6);
   line-height: 1.8;
@@ -193,7 +193,7 @@ body.nav-active {
 }
 
 .btn-primary:is(:hover, :focus-visible) {
-  background-color: var(--bg-ocean-blue);
+  background-color: var(--bg-majorelle-blue-alpha-5);
   box-shadow: var(--shadow-2);}
 
 .btn-secondary {
@@ -733,15 +733,29 @@ box-shadow: var(--shadow-1);
 }
 
 .social-link {
-  color: var(--bg-majorelle-blue);
   font-size: 2rem;
   padding: 10px;
   border-radius: var(--radius-pill);
   transition: var(--transition-1);
 }
 
+.social-link:nth-child(n+2):nth-child(-n+4) {
+  color: var(--bg-social-media-blue);
+}
+
+.social-link:nth-child(1n) {
+  color: var(--bg-social-media-red);
+}
+.social-link:nth-child(5n) {
+  color: var(--bg-social-media-green);
+}
+
 .social-link:is(:hover, :focus-visible)
-{background-color: var(--bg-majorelle-blue); color: var(--text-white); }
+{background-color: var(--bg-majorelle-blue-alpha-5); color: var(--text-white); }
+
+
+.social-link:nth-child(n+2):nth-child(-n+4):is(:hover, :focus-visible)
+{background-color: var(--bg-majorelle-blue-alpha-5); color: var(--text-white); }
 
 .footer-list-title {
   color: var(--text-gunmetal);
@@ -796,7 +810,7 @@ box-shadow: var(--shadow-1);
 }
 
 .input-btn:is(:hover, :focus-visible)
-{background-color: var(--bg-ocean-blue);}
+{background-color: var(--bg-majorelle-blue-alpha-5);}
 
 .footer-bottom  {
   padding-block: 30px;
