@@ -33,4 +33,15 @@ window.addEventListener("scroll", function () {
   header.classList[window.scrollY > 100 ? "add" : "remove"] ("active");
 });
 
+/**FOR THE FAQ CASCADE */
 
+
+const cascader = document.querySelectorAll("[cascade]");
+
+
+/**const toggleQuestion = function () {
+  cascader.classList.toggle("unactive");
+  
+}
+
+addEventOnElements(cascader, "click", toggleQuestion)*/
