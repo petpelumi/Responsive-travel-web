@@ -36,7 +36,7 @@ window.addEventListener("scroll", function () {
 /**FOR THE FAQ CASCADE */
 
 
-const cascader = document.querySelectorAll("[cascade]");
+/**const cascader = document.querySelectorAll("[cascade]");*/
 
 
 /**const toggleQuestion = function () {
