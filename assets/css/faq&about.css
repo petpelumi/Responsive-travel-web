@@ -149,7 +149,7 @@ body{
 
     width: 200px;
     justify-content: center;
-    padding-left: 10px;
+    text-align: left;
     
 }
 
@@ -255,6 +255,7 @@ body,
     font-size: 16px;
     line-height: 1.2;
     color: #000;
+    text-align: justify;
   
 }
 .about-content .read-more {
@@ -298,6 +299,7 @@ body,
     .about-content P {
         padding: 0px;
         font-size: 16px;
+        text-align: justify;
     }
     .about-content .read-more {
         font-size: 15px;
@@ -314,7 +316,7 @@ body,
 
         width: 300px;
         justify-content: center;
-        padding-left: 45px;
+        text-align: left;
         
     }
 
@@ -327,7 +329,7 @@ body,
 
         width: 450px;
         justify-content: center;
-        padding-left: 50px;
+        text-align: left;
         
     }
 }
