@@ -276,14 +276,15 @@ body,
 /**SCREEN FOR ABOUT US(AFTER REDUCTION IN SIZE OF SCREEN)*/
 @media screen and (max-width:768px) {
     .container-us {
-        padding: 0px 20px;      
+        padding: 0px 20px; 
+             
     }
     .container-us h1 {
         font-size: 27px;
     }
     .container-body {
         padding: 0px;
-        width: 60%;
+        width: 100%;
     }
     .about {
         padding: 20px;
