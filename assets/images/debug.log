@@ -139,3 +139,12 @@
 [0805/182134.172:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
 [0805/182139.184:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
 [0805/182144.199:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0904/174909.568:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0904/174914.581:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0904/174919.593:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0904/174924.601:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0904/174929.619:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0904/174934.628:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0904/174939.639:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0904/174944.643:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0904/174947.793:ERROR:media_internals.cc(112)] Cannot get RenderProcessHost

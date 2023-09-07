@@ -4,7 +4,7 @@
 html {
     
     font-family: var(--ff-poppins);
-    font-size: 10px;
+    font-size: 12px;
     scroll-behavior: smooth;
   }
 
@@ -23,6 +23,9 @@ body{
     align-items: center;
     min-height: 100vh;
     background: #f5f8ff;
+}
+.container h1{
+    font-size: 25px;
 }
 .container {
     margin:0 40px;
@@ -87,6 +90,7 @@ body{
     border-radius: 5px;
     margin-right: 5px;
     align-items: center;
+    
 }
 
 .container .tab input:checked ~ label h2 {
@@ -143,6 +147,10 @@ body{
     color: #333;
     z-index: 10;
 
+    width: 200px;
+    justify-content: center;
+    padding-left: 30px;
+    
 }
 
 .container .tab input:checked ~ label h3 {
@@ -171,7 +179,8 @@ body{
 }
 
 .container .tab input:checked ~ .content p {
-    color: #fff;
+    color: #240000;
+    font-size: 12px;
 }
 
 /*ABOUT US CSS*/
@@ -264,7 +273,7 @@ body,
 .about-content .read-more:hover {
     background-color: #3e8e41;
 }
-
+/**SCREEN FOR ABOUT US(AFTER REDUCTION IN SIZE OF SCREEN)*/
 @media screen and (max-width:768px) {
     .container-us {
         padding: 0px 20px;      
@@ -295,9 +304,29 @@ body,
     
 
 }
-@media screen and  (max-width: 540px) {
-    .container .tab h2 {
-        width: 20px;
-        height: 20px;
+
+
+/**SCREEN FOR FAQ(FOR INCREAMENT IN SIZE OF SCREEN STARTING FROM SMALLER SCREEN)*/
+@media (min-width: 575px) 
+{
+    .container .tab label h3 {
+
+        width: 300px;
+        justify-content: center;
+        padding-left: 45px;
+        
     }
+
+
+}
+
+@media (min-width: 765px)
+{
+    .container .tab label h3 {
+
+        width: 450px;
+        justify-content: center;
+        padding-left: 50px;
+        
     }
+}
