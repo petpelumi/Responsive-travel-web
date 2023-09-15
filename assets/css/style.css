@@ -751,6 +751,9 @@ box-shadow: var(--shadow-1);
 .social-link:nth-child(5n) {
   color: var(--bg-social-media-green);
 }
+.social-link:nth-child(6n) {
+  color: black;
+}
 
 .social-link:is(:hover, :focus-visible)
 {background-color: var(--bg-majorelle-blue-alpha-5); color: var(--text-white); }
