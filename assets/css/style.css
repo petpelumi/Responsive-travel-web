@@ -330,7 +330,7 @@ body.nav-active {
 
 .header {
   padding-block: 30px;
-  position: absolute;
+  position: relative;/*incase you have issues change positioning back to absolute*/
   top: 0;
   left: 0;
   width: 100%;

@@ -28,12 +28,13 @@ body{
     background: var(--bg-lavender-black);
 }
 .container h1{
+    margin-top: 150px;
     font-size: 25px;
     color:white}
 .container h1::after{
     content: "";
     position: absolute;
-    width: 70%;
+    width: 80%;
     height: 4px;
     display: block;
     margin: 0 auto;
@@ -200,7 +201,7 @@ body{
 body,
 
 .container-us {
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -209,6 +210,8 @@ body,
     margin: 20px auto;
     
 }
+
+.container-us {margin-top: 150px;}
 
 .container-us h1 {
     font-size: 30px;
