@@ -18,6 +18,7 @@
   /* backgroud colors */
   --bg-white: hsl(0, 0%, 100%);
   --bg-black-alpha-20: hsla(0, 0%, 0%, 0.2);
+  --bg-black-alpha-21: hsla(0, 0%, 0%, 0.813);
   --bg-lavender-blush: hsl(0, 100%, 98%);
   --bg-majorelle-blue: hsl(182, 100%, 19%);
   --bg-ocean-blue: hsl(249, 63%, 54%);
@@ -752,7 +753,7 @@ box-shadow: var(--shadow-1);
   color: var(--bg-social-media-green);
 }
 .social-link:nth-child(6n) {
-  color: black;
+  color: var(--bg-black-alpha-21);
 }
 
 .social-link:is(:hover, :focus-visible)
