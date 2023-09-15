@@ -27,28 +27,30 @@ body{
     min-height: 100vh;
     background: var(--bg-lavender-black);
 }
-.container h1{
-    margin-top: 150px;
+.containerfaq h1{
+    margin-top: 90px;
     font-size: 25px;
-    color:white}
-.container h1::after{
+    color:white;
+    margin-bottom: 30px;}
+.containerfaq h1::after{
     content: "";
     position: absolute;
-    width: 80%;
+    right: 25%;
+    width: 50%;
     height: 4px;
     display: block;
     margin: 0 auto;
     background-color:hsla(183, 100%, 34%, 0.953);;
     border-radius: 50%;
 }
-.container {
+.containerfaq {
     margin:0 40px;
-    max-width: 800px;
+    max-width: 650px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
 }
-.container .tab {
+.containerfaq .tab {
     position: relative;
     background-color: #fff;
     padding: 0 20px 20px;
@@ -58,17 +60,17 @@ body{
     
 }
 
-.container .tab input {
+.containerfaq .tab input {
     appearance: none;
     border: 0px;
 }
 
-.container .tab label {
+.containerfaq .tab label {
     display: flex;
     align-items: center;
     cursor: pointer;
 }
-.container .tab label::after{
+.containerfaq .tab label::after{
     content: '+';
     position: absolute;
     right: 20px;
@@ -77,11 +79,11 @@ body{
     transition: transform 1s;
 }
 
-.container .tab:hover label::after {
+.containerfaq .tab:hover label::after {
     color: #333;
 }
 
-.container .tab input:checked ~ label::after {
+.containerfaq .tab input:checked ~ label::after {
     transform: rotate(45deg);
     color: #fff;
     transition: 0.5s;
@@ -93,7 +95,7 @@ body{
 
 
 
-.container .tab h2 {
+.containerfaq .tab h2 {
     width: 30px;
     height: 30px;
     background: #333;
@@ -107,7 +109,7 @@ body{
     
 }
 
-.container .tab input:checked ~ label h2 {
+.containerfaq .tab input:checked ~ label h2 {
     position: absolute;
     top: 0;
     left: 0;
@@ -119,43 +121,43 @@ body{
     padding: 20px;
 }
 
-.container .tab:nth-child(2) label h2 {
+.containerfaq .tab:nth-child(2) label h2 {
     background: linear-gradient(135deg,#70f570,#49c628);
 }
-.container .tab:nth-child(3) label h2 {
+.containerfaq .tab:nth-child(3) label h2 {
     background: linear-gradient(135deg,#3c8ce7,#00eaff);
 }
 
-.container .tab:nth-child(4) label h2 {
+.containerfaq .tab:nth-child(4) label h2 {
     background: linear-gradient(135deg,#ff96f9,#c32bac);
 }
 
-.container .tab:nth-child(5) label h2 {
+.containerfaq .tab:nth-child(5) label h2 {
     background: linear-gradient(135deg,#fd6e6a,#ffc600);
 }
-.container .tab:nth-child(6) label h2 {
+.containerfaq .tab:nth-child(6) label h2 {
     background: linear-gradient(135deg,#70f570,#ffc600);
 }
-.container .tab:nth-child(7) label h2 {
+.containerfaq .tab:nth-child(7) label h2 {
     background: linear-gradient(135deg,#f570e1,#0088ff);
 }
 
-.container .tab:nth-child(8) label h2 {
+.containerfaq .tab:nth-child(8) label h2 {
     background: linear-gradient(135deg,#f57070,#ff00cc);
 }
-.container .tab:nth-child(9) label h2 {
+.containerfaq .tab:nth-child(9) label h2 {
     background: linear-gradient(135deg,#70ddf5,#00ff37);
 }
-.container .tab:nth-child(10) label h2 {
+.containerfaq .tab:nth-child(10) label h2 {
     background: linear-gradient(135deg,#d670f5,#e0fce2);
 }
-.container .tab:nth-child(11) label h2 {
+.containerfaq .tab:nth-child(11) label h2 {
     background: linear-gradient(135deg,#fa6aff,#ffc600);
 }
 
 
 
-.container .tab label h3 {
+.containerfaq .tab label h3 {
     position: relative;
     font-weight: 500;
     color: #333;
@@ -167,7 +169,7 @@ body{
     
 }
 
-.container .tab input:checked ~ label h3 {
+.containerfaq .tab input:checked ~ label h3 {
     background: #fff;
     padding: 2px 10px;
     color: #4a4a4a;
@@ -175,24 +177,24 @@ body{
     box-shadow: 0 5px 15px  rgba(0,0,0,0.05);
 }
 
-.container .tab .content {
+.containerfaq .tab .content {
     max-height: 0px;
     transition: 1.2s;
     overflow: hidden;
 }
 
-.container .tab input:checked ~ .content {
+.containerfaq .tab input:checked ~ .content {
     max-height: 100vh;
 }
 
-.container .tab .content p {
+.containerfaq .tab .content p {
     position: relative;
     color: #333;
     padding: 10px 0;
     z-index: 10;
 }
 
-.container .tab input:checked ~ .content p {
+.containerfaq .tab input:checked ~ .content p {
     color: #240000;
     font-size: 12px;
 }
@@ -201,7 +203,7 @@ body{
 body,
 
 .container-us {
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -329,7 +331,7 @@ body,
 /**SCREEN FOR FAQ(FOR INCREAMENT IN SIZE OF SCREEN STARTING FROM SMALLER SCREEN)*/
 @media (min-width: 575px) 
 {
-    .container .tab label h3 {
+    .containerfaq .tab label h3 {
 
         width: 300px;
         justify-content: center;
@@ -342,7 +344,7 @@ body,
 
 @media (min-width: 765px)
 {
-    .container .tab label h3 {
+    .containerfaq .tab label h3 {
 
         width: 450px;
         justify-content: center;
