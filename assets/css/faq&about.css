@@ -1,5 +1,8 @@
 /*FAQ CSS*/
-:root{--ff-poppins: 'Poppins', sans-serif;}
+:root{--ff-poppins: 'Poppins', sans-serif;
+    --bg-lavender-black: hsla(0, 0%, 0%, 0.901);/*body background*/
+     }
+
 
 html {
     
@@ -22,14 +25,24 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #f5f8ff;
+    background: var(--bg-lavender-black);
 }
 .container h1{
     font-size: 25px;
+    color:white}
+.container h1::after{
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color:hsla(183, 100%, 34%, 0.953);;
+    border-radius: 50%;
 }
 .container {
     margin:0 40px;
-    max-width: 600px;
+    max-width: 800px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -199,7 +212,7 @@ body,
 
 .container-us h1 {
     font-size: 30px;
-    color: #000;
+    color: #d4edff;
     margin-bottom: 25px;
     position: relative;
 }
@@ -211,7 +224,8 @@ body,
     height: 4px;
     display: block;
     margin: 0 auto;
-    background-color:hsla(182, 74%, 11%, 0.445);;
+    background-color:hsla(183, 100%, 34%, 0.953);;
+    border-radius: 50%;
     
 }
 
@@ -254,7 +268,7 @@ body,
 .about-content p{
     font-size: 16px;
     line-height: 1.2;
-    color: #000;
+    color: #fcfeff;
     text-align: justify;
   
 }
