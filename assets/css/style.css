@@ -584,14 +584,25 @@ box-shadow: var(--shadow-1);
   position: absolute;
   top: 20px;
   right: 20px;
-  background-color: var(--bg-black);
+  /**background-color: var(--bg-black);*/
   color: var(--text-majorelle-blue);
   font-weight: var(--weight-bold);
   font-size: 1.8rem;
   line-height: 1.45;
-  padding: 5px 15px;
-  border-radius: var(--radius-pill);
+ /** padding: 5px 15px;*/
+
+
+  border-radius: var(--radius-circle);
+  width: 15%;
+  height: 15%;
 }
+
+.desti-card .card-price img {
+  width:100%;
+  height: 100%;
+  border-radius: var(--radius-circle);
+}
+
 
 .desti-card .card-title {
   margin-block: 15px 5px;
@@ -601,27 +612,27 @@ box-shadow: var(--shadow-1);
 .desti-card .card-title:is(:hover, :focus-visible) {
   color: var(--text-majorelle-blue);}
 
-  .desti-card :is(.card-rating, .span) {
+ /* .desti-card :is(.card-rating, .span) {
     display: flex;
     align-items: center;
-  }
+  }*/
 
-.desti-card .card-rating {
+/*.desti-card .card-rating {
    margin-block-start: 10px;
    gap: 10px;
 
-}
+}*/
 
-.desti-card .card-rating .span{
+/*.desti-card .card-rating .span{
   background-color: var(--bg-sunglow-alpha-10);
   gap: 5px;
   padding: 4px 12px;
   border-radius: var(--radius-pill);
-}
+}*/
 
-.desti-card .card-rating ion-icon {
+/*.desti-card .card-rating ion-icon {
   color: var(--text-sunglow);
-}
+}*/
 
 .desti .btn {
   margin-inline: auto;
@@ -721,6 +732,7 @@ box-shadow: var(--shadow-1);
   display: grid;
   gap: 40px;
   padding-block: 60px;
+  
 }
 
 .footer .logo img {
@@ -839,9 +851,9 @@ box-shadow: var(--shadow-1);
 {text-decoration: underline;}
 
 .footer-bottom .Avimage{
-  width: 100px;
-  height: 100px;
-  border-radius: var(--radius-pill);
+  width: 15%;
+  height: 15%;
+  border-radius: 25%;
   margin: auto;
 }
 
@@ -1217,7 +1229,7 @@ display: none;
 }
 
 /*
-*DESTINATION
+*EXPERIENCE
 */
 
 .exp .container {
@@ -1344,17 +1356,21 @@ display: none;
 */
 
 .desti-card .card-price {
-   font-size: 2rem;
-  padding:  8px 20px;
+  font-size: 2rem;
+ /** padding:  8px 20px;*/
+
+  width: 15%;
+  height: 15%;
+}
   }
 
 .desti-card .card-title {
   margin-block: 30px 10px;
 }
 
-.desti-card .card-rating {
+/*.desti-card .card-rating {
   margin-block-start: 15px;
-}
+}*/
 
 /*
   *EXPERIENCE
@@ -1393,9 +1409,6 @@ display: none;
 
 .footer-bottom-list {gap: 40px;}
 
-
-
-}
 
 /*responsive for larger than 1400px screen*/
 @media (min-width: 1400px) {
@@ -1461,7 +1474,7 @@ display: none;
 }
 
 /**
-*DESTINATION
+*FOOTER
 */
 
 .footer-top {padding-block-end: 80px;}
