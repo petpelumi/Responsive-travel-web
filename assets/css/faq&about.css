@@ -161,7 +161,7 @@ body{
     position: relative;
     font-weight: 500;
     color: #333;
-    z-index: 10;
+    z-index: 1;
 
     width: 200px;
     justify-content: center;
@@ -191,7 +191,7 @@ body{
     position: relative;
     color: #333;
     padding: 10px 0;
-    z-index: 10;
+    z-index: 1;
 }
 
 .containerfaq .tab input:checked ~ .content p {
