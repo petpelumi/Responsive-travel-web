@@ -507,12 +507,11 @@
             <p class="section-text">
                 We have many special offers especially for you.</p>
 
-                <a href="#" class="btn btn-primary">Get Started</a>
-    
+                <a href="#" class="btn btn-primary">Get Started</a>   
 
         </div>
 
     </div>
-</section>
+</section><!--End of section!-->
 
 <?php include 'php/footer.php'; ?>
