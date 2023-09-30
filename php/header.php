@@ -1,3 +1,56 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--
+        - #PRIMARY META TAGSS
+    -->
+    <title>Adukaz Travels and Tours</title>
+    <meta name="title" content="Adukaz Travels and Tours">
+    <meta name="description" content="A travel template website">
+
+     <!--
+        - #FAVICON
+     -->
+    <link rel="shortcut icon" href="./AdukazFavicon.svg">
+
+      <!--
+        - #GOOGLE FONT LINKS
+    -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+ <!--
+        - #CUSTOM CSS LINKS
+    -->
+    <link rel="stylesheet" href="./assets/css/style.css"> 
+    
+ 
+     <!--
+        - #PRELOAD IMAGES
+    -->
+
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+    <link rel="preload" as="image" href="./AdukazFavicon.svg">
+
+</head>
+
+<body>
+    
+      <!--
+        - #PRELOADER
+    -->
+    <div class="preloader" data-preloader>
+        <div class="preloader-inner">
+            <img src="./AdukazFavicon.svg" width="50" height="50" alt="" class="img">
+        </div>
+    </div>
+
       <!--
         - #HEADER
     -->
@@ -23,11 +76,11 @@
 
                 <ul class="navbar-list">
                     <li class="navbar-item">
-                        <a href="#" class="navbar-link active">Home</a>
+                        <a href="index.php" class="navbar-link">Home</a><!--add avtive to navbar-link to show avtive tab!-->
                     </li>
 
                     <li class="navbar-item">
-                        <a href="./assets/html_pages/about_us.html" class="navbar-link">About</a>
+                        <a href="about_us.php" class="navbar-link">About</a>
                     </li>
 
                     <li class="navbar-item">
@@ -35,15 +88,15 @@
                     </li>
 
                     <li class="navbar-item">
-                        <a href="./assets/html_pages/faq.html" class="navbar-link">Faq</a>
+                        <a href="faq.php" class="navbar-link">Faq</a>
                     </li>
                 </ul>
 
-             <!--   <div class="header-action">
+            <!--    <div class="header-action">
                     <a href="#" class="login-btn">Login</a>
                     <a href="#" class="btn btn-primary">Sign Up</a>
 
-                </div>-->
+                </div>!-->
 
              </nav>
 
@@ -56,3 +109,5 @@
              
         </div>
     </header>
+
+

@@ -853,6 +853,367 @@ box-shadow: var(--shadow-1);
   margin: auto;
 }
 
+
+
+
+
+/*FAQ CSS
+:root{--ff-poppins: 'Poppins', sans-serif;
+    --bg-lavender-black: hsla(0, 0%, 0%, 0.901);/*body background
+     }
+
+
+html {
+    
+    font-family: var(--ff-poppins);
+    font-size: 12px;
+    scroll-behavior: smooth;
+  }
+
+
+*
+{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' sans-serif;
+}*/
+                  /*=======================FAQ CSS====================
+                =======================            ====================*/
+.body-faq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 50px auto;
+    
+    
+}
+.container-faq h1{
+  margin: 40px;
+  color:white;
+  align-self: center;
+  position: relative;
+
+}
+.container-faq h1::after{
+  content: "";
+  position: absolute;
+  right: 25%;
+  width: 50%;
+  height: 4px;
+  display: block;
+  margin: 0 auto;
+  background-color:hsla(183, 100%, 34%, 0.953);;
+  border-radius: 50%;
+}
+.container-faq {
+  margin:0 40px;
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 1300px;
+}
+.container-faq .tab {
+  position: relative;
+  background-color: #fff;
+  padding: 0 20px 20px;
+  box-shadow: 0 15px 25px rgba(0,0,0,0.05);
+  border-radius: 20px;
+  overflow: hidden;
+  
+}
+
+.container-faq .tab input {
+  appearance: none;
+  border: 0px;
+}
+
+.container-faq .tab label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.container-faq .tab label::after{
+  content: '+';
+  position: absolute;
+  right: 20px;
+  font-size: 2em;
+  color: rgba(0,0,0,0.1);
+  transition: transform 1s;
+}
+
+.container-faq .tab:hover label::after {
+  color: #333;
+}
+
+.container-faq .tab input:checked ~ label::after {
+  transform: rotate(45deg);
+  color: #fff;
+  transition: 0.5s;
+}
+
+
+.container-faq .tab h2 {
+  width: 30px;
+  height: 30px;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.25em;
+  border-radius: 5px;
+  margin-right: 5px;
+  align-items: center;
+  
+}
+
+.container-faq .tab input:checked ~ label h2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: rgba(255, 255, 255, 0.226);
+  font-size: 8em;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.container-faq .tab:nth-child(2) label h2 {
+  background: linear-gradient(135deg,#70f570,#49c628);
+}
+.container-faq .tab:nth-child(3) label h2 {
+  background: linear-gradient(135deg,#3c8ce7,#00eaff);
+}
+
+.container-faq .tab:nth-child(4) label h2 {
+  background: linear-gradient(135deg,#ff96f9,#c32bac);
+}
+
+.container-faq .tab:nth-child(5) label h2 {
+  background: linear-gradient(135deg,#fd6e6a,#ffc600);
+}
+.container-faq .tab:nth-child(6) label h2 {
+  background: linear-gradient(135deg,#70f570,#ffc600);
+}
+.container-faq .tab:nth-child(7) label h2 {
+  background: linear-gradient(135deg,#f570e1,#0088ff);
+}
+
+.container-faq .tab:nth-child(8) label h2 {
+  background: linear-gradient(135deg,#f57070,#ff00cc);
+}
+.container-faq .tab:nth-child(9) label h2 {
+  background: linear-gradient(135deg,#70ddf5,#00ff37);
+}
+.container-faq .tab:nth-child(10) label h2 {
+  background: linear-gradient(135deg,#d670f5,#e0fce2);
+}
+.container-faq .tab:nth-child(11) label h2 {
+  background: linear-gradient(135deg,#fa6aff,#ffc600);
+}
+
+
+
+.container-faq .tab label h3 {
+  position: relative;
+  font-weight: 500;
+  color: #333;
+  z-index: 1;
+  width: 80%;
+  justify-content: center;
+  text-align: left;
+  margin-left: 20px;
+  }
+
+.container-faq .tab input:checked ~ label h3 {
+  background: #fff;
+  padding: 2px 10px;
+  color: #4a4a4a;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px  rgba(0,0,0,0.05);
+}
+
+.container-faq .tab .content {
+  max-height: 0px;
+  transition: 1.2s;
+  overflow: hidden;
+}
+
+.container-faq .tab input:checked ~ .content {
+  max-height: 100vh;
+}
+
+.container-faq .tab .content p {
+  position: relative;
+  color: #333;
+  padding: 10px 0;
+  z-index: 1;
+}
+
+.container-faq .tab input:checked ~ .content p {
+  color: #240000;
+  font-size: 12px;
+}
+
+              /*=======================ABOUT US CSS====================
+                =======================            ====================*/
+.body-about-us{
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+
+}
+
+.container-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px auto;
+  
+}
+
+.container-us {margin-top: 100px;}
+
+.container-us h1 {
+  color: #d4edff;
+  position: relative;
+}
+
+.container-us h1::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  display: block;
+  margin: 0 auto;
+  background-color:hsla(183, 100%, 34%, 0.953);;
+  border-radius: 50%;
+  
+}
+
+.container-body {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 30px;
+  max-width: 1300px;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-image img{
+  
+  width: 400px;
+  height: auto;
+  display: block;
+  transition: 0.5s ease;
+}
+
+.about-image:hover img {
+  transform: scale(1.1);
+}
+
+
+.about-content h2 {
+  font-size: 23px;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.about-content p{
+  line-height: 1.2;
+  color: #fcfeff;
+  text-align: left;
+
+}
+.about-content .read-more {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #4caf51;
+  font-size: 19px;
+  text-decoration: none;
+  border-radius: 25px;
+  margin-top: 25px;
+  transition: 0.3s ease;
+  
+}
+
+.about-content .read-more:hover {
+  background-color: #3e8e41;
+}
+/**SCREEN FOR ABOUT US(AFTER REDUCTION IN SIZE OF SCREEN)
+@media screen and (max-width:768px) {
+  .container-us {
+      padding: 0px 20px; 
+           
+  }
+  .container-us h1 {
+      font-size: 27px;
+  }
+  .container-body {
+      padding: 0px;
+      width: 100%;
+  }
+  .about {
+      padding: 20px;
+      flex-direction: column;
+  }
+  .about-image {
+      margin-right: 0px;
+      margin-bottom: 20px;
+      width: fit-content;
+  }
+  .about-content P {
+      padding: 0px;
+      font-size: 16px;
+      text-align: justify;
+  }
+  .about-content .read-more {
+      font-size: 15px;
+  }
+  
+
+}
+
+
+/**SCREEN FOR FAQ(FOR INCREAMENT IN SIZE OF SCREEN STARTING FROM SMALLER SCREEN)
+@media (min-width: 575px) 
+{
+  .container-faq .tab label h3 {
+
+      width: 300px;
+      justify-content: center;
+      text-align: left;
+      
+  }
+
+
+}
+
+@media (min-width: 765px)
+{
+  .container-faq .tab label h3 {
+
+      width: 450px;
+      justify-content: center;
+      text-align: left;
+      
+  }
+}
+*/
+
+
+
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
@@ -860,7 +1221,7 @@ box-shadow: var(--shadow-1);
 
 
 /**
-*responsive for larger than 575px screen*/
+*Responsive for larger than 575px screen*/
 @media (min-width: 575px) {
 
 /**
@@ -928,16 +1289,10 @@ box-shadow: var(--shadow-1);
 
 
 
-
-
-
-
-
-
 }
 
 /**
-*responsive for larger than 768px screen*/
+*Responsive for larger than 768px screen*/
 @media (min-width: 768px) {
 
   /*
@@ -1133,7 +1488,7 @@ box-shadow: var(--shadow-1);
 }
 
 /**
-*responsive for larger than 992px screen*/
+*Responsive for larger than 992px screen*/
 @media (min-width: 992px) {
 
   /*
@@ -1287,7 +1642,7 @@ display: none;
 
 }
 
-/*responsive for larger than 1200px screen*/
+/*Responsive for larger than 1200px screen*/
 @media (min-width: 1200px) {
 /*
   *CUSTOM PROPERTY
@@ -1429,7 +1784,7 @@ display: none;
 */
 
 .container {
-  max-width: 1350;
+  max-width: 1350px;
 }
 
 /**
@@ -1474,6 +1829,11 @@ display: none;
 
 .footer-top {padding-block-end: 80px;}
 
+}
 
-
+/*=========Responsive for larger than 768px screen for ABOUT US=======================*/
+@media (min-width: 768px) {
+  .about-content{
+    flex: 1;
+  }
 }

@@ -1,6 +1,6 @@
-/*FAQ CSS*/
+/*FAQ CSS
 :root{--ff-poppins: 'Poppins', sans-serif;
-    --bg-lavender-black: hsla(0, 0%, 0%, 0.901);/*body background*/
+    --bg-lavender-black: hsla(0, 0%, 0%, 0.901);/*body background
      }
 
 
@@ -26,7 +26,8 @@ body{
     align-items: center;
     min-height: 100vh;
     background: var(--bg-lavender-black);
-}
+
+}*/
 .containerfaq h1{
     margin-top: 90px;
     font-size: 25px;
@@ -200,7 +201,7 @@ body{
 }
 
 /*ABOUT US CSS*/
-body,
+/*body,*/
 
 .container-us {
     width: 90%;
@@ -293,7 +294,7 @@ body,
 .about-content .read-more:hover {
     background-color: #3e8e41;
 }
-/**SCREEN FOR ABOUT US(AFTER REDUCTION IN SIZE OF SCREEN)*/
+/**SCREEN FOR ABOUT US(AFTER REDUCTION IN SIZE OF SCREEN)
 @media screen and (max-width:768px) {
     .container-us {
         padding: 0px 20px; 
@@ -328,7 +329,7 @@ body,
 }
 
 
-/**SCREEN FOR FAQ(FOR INCREAMENT IN SIZE OF SCREEN STARTING FROM SMALLER SCREEN)*/
+/**SCREEN FOR FAQ(FOR INCREAMENT IN SIZE OF SCREEN STARTING FROM SMALLER SCREEN)
 @media (min-width: 575px) 
 {
     .containerfaq .tab label h3 {
@@ -352,3 +353,4 @@ body,
         
     }
 }
+*/
