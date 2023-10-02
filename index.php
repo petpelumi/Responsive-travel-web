@@ -128,7 +128,7 @@
                 <div class="desti-card">
                     <div class="card-banner img-holder" style="--width: 600; --height: 600;">
                         <img src="./assets/images/freedom-york-crown-lady-nobody.jpg" 
-                        width="600" height="650" loading="lazy" alt="Enjoy the Beauty of the del Pincio" class="img-cover">
+                        width="600" height="650" loading="lazy" alt="Enjoy the Beauty of USA" class="img-cover">
 
                         <span class="card-price">
                             <img src="assets/images/Ameriacan.jpg" alt="">
@@ -138,7 +138,7 @@
 
                     <div class="card-content">
                         <h3 class="h3 title">
-                            <a href="#" class="card-title">Enjoy the Beauty of the del Pincio</a>
+                            <a href="#" class="card-title">Enjoy the Beauty of USA</a>
                         </h3>
 
                         <address class="card-text">
@@ -163,7 +163,7 @@
                 <div class="desti-card">
                     <div class="card-banner img-holder" style="--width: 600; --height: 600;">
                         <img src="./assets/images/beautiful-shot-buildings-hill-turquoise-beach-cape-town-south-africa.jpg" 
-                        width="600" height="650" loading="lazy" alt="Enjoy the Beauty of the del Pincio" class="img-cover">
+                        width="600" height="650" loading="lazy" alt="Enjoy the Beauty of South Africa" class="img-cover">
 
                         <span class="card-price">
                         <img src="assets/images/south-african-flag.jpg" alt="">
@@ -173,7 +173,7 @@
 
                     <div class="card-content">
                         <h3 class="h3 title">
-                            <a href="#" class="card-title">Enjoy the Beauty of the del Pincio</a>
+                            <a href="#" class="card-title">Enjoy the Beauty of South Africa</a>
                         </h3>
 
                         <address class="card-text">
@@ -198,7 +198,7 @@
                 <div class="desti-card">
                     <div class="card-banner img-holder" style="--width: 600; --height: 600;">
                         <img src="./assets/images/kyrenia-girne-cyprus-shutterstock_756129028_14e08906b7.jpeg" 
-                        width="600" height="650" loading="lazy" alt="Enjoy the Beauty of the del Pincio" class="img-cover">
+                        width="600" height="650" loading="lazy" alt="Enjoy the Beauty of Cyprus" class="img-cover">
 
                         <span class="card-price">
                             <img src="assets/images/flag-cyprus.jpg" alt="">
@@ -208,7 +208,7 @@
 
                     <div class="card-content">
                         <h3 class="h3 title">
-                            <a href="#" class="card-title">Enjoy the Beauty Cyprus</a>
+                            <a href="#" class="card-title">Enjoy the Beauty of Cyprus</a>
                         </h3>
 
                         <address class="card-text">
@@ -233,7 +233,7 @@
                 <div class="desti-card">
                     <div class="card-banner img-holder" style="--width: 600; --height: 600;">
                         <img src="./assets/images/berlin-pexels-ingo-joseph-11742.jpg" 
-                        width="600" height="650" loading="lazy" alt="Enjoy the Beauty of the del Pincio" class="img-cover">
+                        width="600" height="650" loading="lazy" alt="Enjoy the Beauty of Germany" class="img-cover">
 
                         <span class="card-price">
                             <img src="assets/images/Germany.png" alt="">
@@ -243,7 +243,7 @@
 
                     <div class="card-content">
                         <h3 class="h3 title">
-                            <a href="#" class="card-title">Enjoy the Beauty Germany</a>
+                            <a href="#" class="card-title">Enjoy the Beauty of Germany</a>
                         </h3>
 
                         <address class="card-text">
@@ -268,7 +268,7 @@
                 <div class="desti-card">
                     <div class="card-banner img-holder" style="--width: 600; --height: 600;">
                         <img src="./assets/images/full-shot-woman-with-canadian-flag.jpg" 
-                        width="600" height="650" loading="lazy" alt="Enjoy the Beauty of the del Pincio" class="img-cover">
+                        width="600" height="650" loading="lazy" alt="Enjoy the Beauty of Canada " class="img-cover">
 
                         <span class="card-price">
                             <img src="assets/images/flag-canada.jpg" alt="">
@@ -303,7 +303,7 @@
                 <div class="desti-card">
                     <div class="card-banner img-holder" style="--width: 600; --height: 600;">
                         <img src="./assets/images/vienna.webp" 
-                        width="600" height="650" loading="lazy" alt="Enjoy the Beauty of the del Pincio" class="img-cover">
+                        width="600" height="650" loading="lazy" alt="Enjoy the Beauty of Ausria" class="img-cover">
 
                         <span class="card-price">
                             <img src="assets/images/flag-austria.jpg" alt="">
@@ -426,7 +426,7 @@
 
                 <figure class="item-banner img-holder" 
                 style="--width: 700; --height: 925; ">
-                    <img src="./assets/images/gallery-1.jpg" 
+                    <img src="./assets/images/travelImage1.jpg" 
                     width="700" height="925" loading="lazy" alt="gallery" class="img-cover">
                 </figure>
 
@@ -436,7 +436,7 @@
 
                 <figure class="item-banner img-holder" 
                 style="--width: 700; --height: 840; ">
-                    <img src="./assets/images/gallery-2.jpg" 
+                    <img src="./assets/images/travelImage2.jpg" 
                     width="700" height="840" loading="lazy" alt="gallery" class="img-cover">
                 </figure>
 
@@ -446,7 +446,7 @@
 
                 <figure class="item-banner img-holder" 
                 style="--width: 700; --height: 625; ">
-                    <img src="./assets/images/gallery-3.jpg" 
+                    <img src="./assets/images/travelImg3" 
                     width="700" height="625" loading="lazy" alt="gallery" class="img-cover">
                 </figure>
 
@@ -456,7 +456,7 @@
 
                 <figure class="item-banner img-holder" 
                 style="--width: 700; --height: 450; ">
-                    <img src="./assets/images/gallery-4.jpg" 
+                    <img src="./assets/images/travelImage4.jpg" 
                     width="700" height="450" loading="lazy" alt="gallery" class="img-cover">
                 </figure>
 
@@ -466,7 +466,7 @@
 
                 <figure class="item-banner img-holder" 
                 style="--width: 700; --height: 320; ">
-                    <img src="./assets/images/gallery-5.jpg" 
+                    <img src="./assets/images/travelImage5.jpg" 
                     width="700" height="320" loading="lazy" alt="gallery" class="img-cover">
                 </figure>
 
@@ -476,7 +476,7 @@
 
                 <figure class="item-banner img-holder" 
                 style="--width: 700; --height: 240; ">
-                    <img src="./assets/images/gallery-6.jpg" 
+                    <img src="./assets/images/travelImage6.jpg" 
                     width="700" height="240" loading="lazy" alt="gallery" class="img-cover">
                 </figure>
 

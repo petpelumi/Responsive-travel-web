@@ -1132,7 +1132,8 @@ html {
 .about-content p{
   line-height: 1.2;
   color: #fcfeff;
-  text-align: left;
+  text-align: center;
+  word-wrap: inherit;
 
 }
 .about-content .read-more {
@@ -1714,6 +1715,10 @@ display: none;
 .desti-card .card-title {
   margin-block: 30px 10px;
 }
+.desti-card .card-price {
+  width: 20%;
+  height: 15%;
+}
 
 /*.desti-card .card-rating {
   margin-block-start: 15px;
@@ -1823,9 +1828,12 @@ display: none;
   gap: 60px;
 }
 
+
+
 /**
-*DESTINATION
+*FOOTER
 */
+
 
 .footer-top {padding-block-end: 80px;}
 

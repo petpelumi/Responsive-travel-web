@@ -13,14 +13,10 @@
             <img src="assets/images/world_girl.png" alt="Refresh your page">
         </div>
         <div class="about-content">
-            <p> Adukaz Travels and Tours provides travel and tourism-related services to the general
-                public on behalf of accommodation or travel suppliers to offer different kinds of travelling 
-                packages for each destination. Adukaz TOurs and Travels helps in the procurement of visas 
-                to African countries and also several other countries outside Africa.
-                Adukaz Travels and Tours provides student visas, work visas and even visas for tourists.
-                It arranges logistics for travellers upon request.
+            <p> As a seasoned executive with a background in Management roles and a Higher Education degree, my vision was to create a travel solution that encompasses convenience, luxury, and utmost customer satisfaction. Adukaz Travels was founded on these principles and has since evolved into a trusted name in the industry.Our extensive range of services caters to both individuals and corporate clients. Whether you are planning a family vacation, a business trip, or a group tour, Adukaz Travels ensures seamless travel experiences tailored to your unique needs. We specialize in offering personalized itineraries, exclusive accommodation options, and top-notch transportation services.At Adukaz Travels, we have forged strategic partnerships with renowned hotel chains, airlines, and local service providers worldwide. This enables us to offer our clients preferential rates and exclusive access to a wide range of destinations, ensuring unforgettable travel experiences. What sets us apart from our competitors is our unwavering commitment to customer satisfaction. Our team of highly experienced travel advisors goes above and beyond to ensure every aspect of your trip is meticulously planned and executed. From visa processing to airport transfers, we take care of every detail to provide you with a hassle-free travel experience.
+
             </p>
-            <a href="faq.php" class="read-more">Find out more</a>
+            <a href="faq.php" class="read-more">Find out more?</a>
         </div>
     </section>
 </div>
